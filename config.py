@@ -41,7 +41,7 @@ class Settings(BaseSettings):
         env_file = ".env"
         env_nested_delimiter = "__"
         case_sensitive = False
-        
+        extra = "ignore"  
         # Allow environment variables like:
         # DB_FIELDS__ID_FIELD=custom_id
         # EMBEDDING__MODEL=text-embedding-3-small
